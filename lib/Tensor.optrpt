@@ -1,0 +1,162 @@
+
+Begin optimization report for: operator*(Tensor &, Tensor &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at Tensor.C(169,3) inlined into Tensor.C(132,10)
+   remark #15388: vectorization support: reference a_ has aligned access   [ Tensor.C(170,5) ]
+   remark #15399: vectorization support: unroll factor set to 4
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 2.250 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at Tensor.C(169,3) inlined into Tensor.C(132,10)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: Tensor::Tensor(Tensor *, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at Tensor.C(21,3)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at Tensor.C(21,3)
+<Multiversioned v1>
+   remark #15388: vectorization support: reference this has aligned access   [ Tensor.C(22,5) ]
+   remark #15389: vectorization support: reference rhs has unaligned access   [ Tensor.C(22,5) ]
+   remark #15381: vectorization support: unaligned access used inside loop body
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.450 
+   remark #15479: lightweight vector operations: 1 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at Tensor.C(21,3)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at Tensor.C(21,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+===========================================================================
+
+Begin optimization report for: Tensor::Tensor(Tensor *const, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at Tensor.C(21,3) inlined into Tensor.C(19,9)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at Tensor.C(21,3) inlined into Tensor.C(19,9)
+<Multiversioned v1>
+   remark #15388: vectorization support: reference this has aligned access   [ Tensor.C(22,5) ]
+   remark #15389: vectorization support: reference __p2_9269 has unaligned access   [ Tensor.C(22,5) ]
+   remark #15381: vectorization support: unaligned access used inside loop body
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.450 
+   remark #15479: lightweight vector operations: 1 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at Tensor.C(21,3) inlined into Tensor.C(19,9)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at Tensor.C(21,3) inlined into Tensor.C(19,9)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+===========================================================================
+
+Begin optimization report for: Tensor::setdiag(Tensor *, const D3vector &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at Tensor.C(96,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: Tensor::clear(Tensor *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at Tensor.C(169,3)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at Tensor.C(169,3)
+   remark #15388: vectorization support: reference this has aligned access   [ Tensor.C(170,5) ]
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 1.380 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at Tensor.C(169,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: Tensor::identity(Tensor *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at Tensor.C(169,3) inlined into Tensor.C(175,3)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at Tensor.C(169,3) inlined into Tensor.C(175,3)
+   remark #15388: vectorization support: reference this has aligned access   [ Tensor.C(170,5) ]
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 1.380 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at Tensor.C(169,3) inlined into Tensor.C(175,3)
+<Remainder>
+LOOP END
+===========================================================================
