@@ -96,7 +96,7 @@ int main (int argc, char *argv[])
     }
 
     //read atoms
-    int wcount = 0, hcount = 0;
+    int wcount = 0, hcount = 0, acount =0;
     tm_read.start();
     for ( int iatom = 0; iatom < natom; iatom ++ )
     {
@@ -115,7 +115,7 @@ int main (int argc, char *argv[])
         }
         else if ( name.compare("Na") == 0 )
         {
-          alkaliset.push_back( Alkali(wcount ++, c ) );
+          alkaliset.push_back( Alkali(acount ++, c ) );
           atomset[iatom].setmass(22.99);
           atomset[iatom].setname(name);
           atomset[iatom].setcharge(6.0);
