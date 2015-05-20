@@ -28,47 +28,55 @@ LOOP BEGIN at output-ion-water63-polariz.C(231,37)
    remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
 LOOP END
 
-LOOP BEGIN at output-ion-water63-polariz.C(250,9)
+LOOP BEGIN at output-ion-water63-polariz.C(237,38)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-ion-water63-polariz.C(241,38)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-ion-water63-polariz.C(262,9)
    remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
 LOOP END
 
-LOOP BEGIN at output-ion-water63-polariz.C(265,52)
+LOOP BEGIN at output-ion-water63-polariz.C(277,52)
    remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
 LOOP END
 
-LOOP BEGIN at output-ion-water63-polariz.C(280,52)
+LOOP BEGIN at output-ion-water63-polariz.C(292,52)
    remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
 LOOP END
 
-LOOP BEGIN at output-ion-water63-polariz.C(313,37)
+LOOP BEGIN at output-ion-water63-polariz.C(325,37)
    remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
 LOOP END
 
-LOOP BEGIN at output-ion-water63-polariz.C(330,38)
+LOOP BEGIN at output-ion-water63-polariz.C(342,38)
    remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
 LOOP END
 
-LOOP BEGIN at output-ion-water63-polariz.C(339,38)
+LOOP BEGIN at output-ion-water63-polariz.C(351,38)
    remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
 LOOP END
 
-LOOP BEGIN at output-ion-water63-polariz.C(357,39)
+LOOP BEGIN at output-ion-water63-polariz.C(369,39)
    remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
 LOOP END
 
-LOOP BEGIN at output-ion-water63-polariz.C(363,70)
+LOOP BEGIN at output-ion-water63-polariz.C(375,70)
    remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
 LOOP END
 
-LOOP BEGIN at output-ion-water63-polariz.C(370,68)
+LOOP BEGIN at output-ion-water63-polariz.C(382,68)
    remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
 LOOP END
 
-LOOP BEGIN at output-ion-water63-polariz.C(389,37)
+LOOP BEGIN at output-ion-water63-polariz.C(401,37)
    remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
 LOOP END
 
-LOOP BEGIN at output-ion-water63-polariz.C(400,47)
+LOOP BEGIN at output-ion-water63-polariz.C(412,47)
    remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
 LOOP END
 
@@ -83,7 +91,7 @@ LOOP BEGIN at output-ion-water63-polariz.C(79,3)
       remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
    LOOP END
 
-   LOOP BEGIN at output-ion-water63-polariz.C(242,7)
+   LOOP BEGIN at output-ion-water63-polariz.C(254,7)
       remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
    LOOP END
 LOOP END
@@ -99,7 +107,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into /usr/
 LOOP END
 
 LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
-   remark #15388: vectorization support: reference __first_28831 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+   remark #15388: vectorization support: reference __first_28837 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
    remark #15399: vectorization support: unroll factor set to 4
    remark #15300: LOOP WAS VECTORIZED
    remark #15442: entire loop may be executed in remainder
@@ -122,7 +130,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/
 LOOP END
 
 LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
-   remark #15388: vectorization support: reference __first_28881 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+   remark #15388: vectorization support: reference __first_28887 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
    remark #15399: vectorization support: unroll factor set to 4
    remark #15300: LOOP WAS VECTORIZED
    remark #15442: entire loop may be executed in remainder
@@ -145,7 +153,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into /usr/
 LOOP END
 
 LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
-   remark #15388: vectorization support: reference __first_28831 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+   remark #15388: vectorization support: reference __first_28837 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
    remark #15399: vectorization support: unroll factor set to 4
    remark #15300: LOOP WAS VECTORIZED
    remark #15442: entire loop may be executed in remainder
@@ -168,7 +176,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/
 LOOP END
 
 LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
-   remark #15388: vectorization support: reference __first_28881 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+   remark #15388: vectorization support: reference __first_28887 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
    remark #15399: vectorization support: unroll factor set to 4
    remark #15300: LOOP WAS VECTORIZED
    remark #15442: entire loop may be executed in remainder
@@ -329,7 +337,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../li
    remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Water.h(72,9)
-      remark #15388: vectorization support: reference __first_25670 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+      remark #15388: vectorization support: reference __first_25676 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
       remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
       remark #15449: unmasked aligned unit stride stores: 1 
       remark #15475: --- begin vector loop cost summary ---
@@ -350,7 +358,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../li
    remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Water.h(72,9)
-      remark #15388: vectorization support: reference __first_25720 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15388: vectorization support: reference __first_25726 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
       remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
       remark #15449: unmasked aligned unit stride stores: 1 
       remark #15475: --- begin vector loop cost summary ---
@@ -371,7 +379,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../li
    remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Water.h(72,9)
-      remark #15388: vectorization support: reference __first_25670 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+      remark #15388: vectorization support: reference __first_25676 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
       remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
       remark #15449: unmasked aligned unit stride stores: 1 
       remark #15475: --- begin vector loop cost summary ---
@@ -392,7 +400,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../li
    remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Water.h(72,9)
-      remark #15388: vectorization support: reference __first_25720 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15388: vectorization support: reference __first_25726 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
       remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
       remark #15449: unmasked aligned unit stride stores: 1 
       remark #15475: --- begin vector loop cost summary ---
@@ -419,7 +427,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../li
    remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Alkali.h(46,9)
-      remark #15388: vectorization support: reference __first_25670 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+      remark #15388: vectorization support: reference __first_25676 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
       remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
       remark #15449: unmasked aligned unit stride stores: 1 
       remark #15475: --- begin vector loop cost summary ---
@@ -440,7 +448,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../li
    remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Alkali.h(46,9)
-      remark #15388: vectorization support: reference __first_25720 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15388: vectorization support: reference __first_25726 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
       remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
       remark #15449: unmasked aligned unit stride stores: 1 
       remark #15475: --- begin vector loop cost summary ---
@@ -461,7 +469,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../li
    remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Alkali.h(46,9)
-      remark #15388: vectorization support: reference __first_25670 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+      remark #15388: vectorization support: reference __first_25676 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
       remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
       remark #15449: unmasked aligned unit stride stores: 1 
       remark #15475: --- begin vector loop cost summary ---
@@ -482,7 +490,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../li
    remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Alkali.h(46,9)
-      remark #15388: vectorization support: reference __first_25720 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15388: vectorization support: reference __first_25726 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
       remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
       remark #15449: unmasked aligned unit stride stores: 1 
       remark #15475: --- begin vector loop cost summary ---
@@ -509,7 +517,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../li
    remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Halide.h(46,9)
-      remark #15388: vectorization support: reference __first_25670 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+      remark #15388: vectorization support: reference __first_25676 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
       remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
       remark #15449: unmasked aligned unit stride stores: 1 
       remark #15475: --- begin vector loop cost summary ---
@@ -530,7 +538,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../li
    remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Halide.h(46,9)
-      remark #15388: vectorization support: reference __first_25720 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15388: vectorization support: reference __first_25726 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
       remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
       remark #15449: unmasked aligned unit stride stores: 1 
       remark #15475: --- begin vector loop cost summary ---
@@ -551,7 +559,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../li
    remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Halide.h(46,9)
-      remark #15388: vectorization support: reference __first_25670 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+      remark #15388: vectorization support: reference __first_25676 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
       remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
       remark #15449: unmasked aligned unit stride stores: 1 
       remark #15475: --- begin vector loop cost summary ---
@@ -572,7 +580,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../li
    remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Halide.h(46,9)
-      remark #15388: vectorization support: reference __first_25720 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15388: vectorization support: reference __first_25726 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
       remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
       remark #15449: unmasked aligned unit stride stores: 1 
       remark #15475: --- begin vector loop cost summary ---
@@ -610,8 +618,8 @@ LOOP END
 LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr/include/c++/4.8/bits/vector.tcc(385,4)
    remark #15382: vectorization support: call to function operator delete(void *) cannot be vectorized   [ /usr/include/c++/4.8/ext/new_allocator.h(110,9) ]
    remark #15344: loop was not vectorized: vector dependence prevents vectorization
-   remark #15346: vector dependence: assumed ANTI dependence between __first_27313 line 160 and  line 110
-   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_27313 line 160
+   remark #15346: vector dependence: assumed ANTI dependence between __first_27319 line 160 and  line 110
+   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_27319 line 160
 LOOP END
 ===========================================================================
 
@@ -648,8 +656,8 @@ LOOP END
 LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr/include/c++/4.8/bits/vector.tcc(385,4)
    remark #15382: vectorization support: call to function operator delete(void *) cannot be vectorized   [ /usr/include/c++/4.8/ext/new_allocator.h(110,9) ]
    remark #15344: loop was not vectorized: vector dependence prevents vectorization
-   remark #15346: vector dependence: assumed ANTI dependence between __first_29590 line 160 and  line 110
-   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_29590 line 160
+   remark #15346: vector dependence: assumed ANTI dependence between __first_29596 line 160 and  line 110
+   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_29596 line 160
 LOOP END
 ===========================================================================
 
@@ -686,8 +694,8 @@ LOOP END
 LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr/include/c++/4.8/bits/vector.tcc(385,4)
    remark #15382: vectorization support: call to function operator delete(void *) cannot be vectorized   [ /usr/include/c++/4.8/ext/new_allocator.h(110,9) ]
    remark #15344: loop was not vectorized: vector dependence prevents vectorization
-   remark #15346: vector dependence: assumed ANTI dependence between __first_29111 line 160 and  line 110
-   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_29111 line 160
+   remark #15346: vector dependence: assumed ANTI dependence between __first_29117 line 160 and  line 110
+   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_29117 line 160
 LOOP END
 ===========================================================================
 
@@ -714,8 +722,8 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /
 
    LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
    <Multiversioned v1>
-      remark #15389: vectorization support: reference __cur.26194 has unaligned access
-      remark #15389: vectorization support: reference __first_26194 has unaligned access
+      remark #15389: vectorization support: reference __cur.26200 has unaligned access
+      remark #15389: vectorization support: reference __first_26200 has unaligned access
       remark #15381: vectorization support: unaligned access used inside loop body
       remark #15427: loop was completely unrolled
       remark #15399: vectorization support: unroll factor set to 4
@@ -755,8 +763,8 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /
 
    LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
    <Multiversioned v1>
-      remark #15389: vectorization support: reference __cur.26194 has unaligned access
-      remark #15389: vectorization support: reference __first_26194 has unaligned access
+      remark #15389: vectorization support: reference __cur.26200 has unaligned access
+      remark #15389: vectorization support: reference __first_26200 has unaligned access
       remark #15381: vectorization support: unaligned access used inside loop body
       remark #15427: loop was completely unrolled
       remark #15399: vectorization support: unroll factor set to 4
@@ -787,7 +795,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(186,8) inlined into 
    remark #15542: loop was not vectorized: inner loop was already vectorized
 
    LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
-      remark #15389: vectorization support: reference __cur.26453 has unaligned access
+      remark #15389: vectorization support: reference __cur.26459 has unaligned access
       remark #15389: vectorization support: reference __x has unaligned access
       remark #15381: vectorization support: unaligned access used inside loop body
       remark #15427: loop was completely unrolled
@@ -811,8 +819,8 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /
 
    LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
    <Multiversioned v1>
-      remark #15389: vectorization support: reference __cur.26194 has unaligned access
-      remark #15389: vectorization support: reference __first_26194 has unaligned access
+      remark #15389: vectorization support: reference __cur.26200 has unaligned access
+      remark #15389: vectorization support: reference __first_26200 has unaligned access
       remark #15381: vectorization support: unaligned access used inside loop body
       remark #15427: loop was completely unrolled
       remark #15399: vectorization support: unroll factor set to 4
@@ -840,8 +848,8 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /
 
    LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
    <Multiversioned v1>
-      remark #15389: vectorization support: reference __cur.26194 has unaligned access
-      remark #15389: vectorization support: reference __first_26194 has unaligned access
+      remark #15389: vectorization support: reference __cur.26200 has unaligned access
+      remark #15389: vectorization support: reference __first_26200 has unaligned access
       remark #15381: vectorization support: unaligned access used inside loop body
       remark #15427: loop was completely unrolled
       remark #15399: vectorization support: unroll factor set to 4
@@ -868,16 +876,16 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr
    remark #15382: vectorization support: call to function __atomic_fetch_add_4(volatile void *, unsigned int, int) cannot be vectorized   [ /usr/include/c++/4.8/ext/atomicity.h(49,12) ]
    remark #15382: vectorization support: call to function std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep::_M_destroy(std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep *, const std::allocator<char> &) cannot be vectorized   [ /usr/include/c++/4.8/bits/basic_string.h(249,5) ]
    remark #15344: loop was not vectorized: vector dependence prevents vectorization
-   remark #15346: vector dependence: assumed ANTI dependence between __first_26013 line 539 and  line 249
-   remark #15346: vector dependence: assumed FLOW dependence between  line 249 and __first_26013 line 539
+   remark #15346: vector dependence: assumed ANTI dependence between __first_26019 line 539 and  line 249
+   remark #15346: vector dependence: assumed FLOW dependence between  line 249 and __first_26019 line 539
 LOOP END
 
 LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr/include/c++/4.8/bits/stl_vector.h(710,4)
    remark #15382: vectorization support: call to function __atomic_fetch_add_4(volatile void *, unsigned int, int) cannot be vectorized   [ /usr/include/c++/4.8/ext/atomicity.h(49,12) ]
    remark #15382: vectorization support: call to function std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep::_M_destroy(std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep *, const std::allocator<char> &) cannot be vectorized   [ /usr/include/c++/4.8/bits/basic_string.h(249,5) ]
    remark #15344: loop was not vectorized: vector dependence prevents vectorization
-   remark #15346: vector dependence: assumed ANTI dependence between __first_26013 line 539 and  line 249
-   remark #15346: vector dependence: assumed FLOW dependence between  line 249 and __first_26013 line 539
+   remark #15346: vector dependence: assumed ANTI dependence between __first_26019 line 539 and  line 249
+   remark #15346: vector dependence: assumed FLOW dependence between  line 249 and __first_26019 line 539
 LOOP END
 ===========================================================================
 
@@ -904,7 +912,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../li
    remark #15542: loop was not vectorized: inner loop was already vectorized
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Cell.h(29,18)
-      remark #15389: vectorization support: reference __first_24862 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+      remark #15389: vectorization support: reference __first_24868 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
       remark #15381: vectorization support: unaligned access used inside loop body
       remark #15399: vectorization support: unroll factor set to 2
       remark #15300: LOOP WAS VECTORIZED
@@ -927,7 +935,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../li
    remark #15542: loop was not vectorized: inner loop was already vectorized
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,18)
-      remark #15389: vectorization support: reference __first_24926 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15389: vectorization support: reference __first_24932 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
       remark #15381: vectorization support: unaligned access used inside loop body
       remark #15399: vectorization support: unroll factor set to 2
       remark #15300: LOOP WAS VECTORIZED
@@ -950,7 +958,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../li
    remark #15542: loop was not vectorized: inner loop was already vectorized
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,18)
-      remark #15389: vectorization support: reference __first_24926 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15389: vectorization support: reference __first_24932 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
       remark #15381: vectorization support: unaligned access used inside loop body
       remark #15399: vectorization support: unroll factor set to 2
       remark #15300: LOOP WAS VECTORIZED
@@ -973,7 +981,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../li
    remark #15542: loop was not vectorized: inner loop was already vectorized
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Cell.h(29,31)
-      remark #15389: vectorization support: reference __first_24862 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+      remark #15389: vectorization support: reference __first_24868 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
       remark #15381: vectorization support: unaligned access used inside loop body
       remark #15399: vectorization support: unroll factor set to 2
       remark #15300: LOOP WAS VECTORIZED
@@ -996,7 +1004,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../li
    remark #15542: loop was not vectorized: inner loop was already vectorized
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,31)
-      remark #15389: vectorization support: reference __first_24926 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15389: vectorization support: reference __first_24932 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
       remark #15381: vectorization support: unaligned access used inside loop body
       remark #15399: vectorization support: unroll factor set to 2
       remark #15300: LOOP WAS VECTORIZED
@@ -1019,7 +1027,7 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../li
    remark #15542: loop was not vectorized: inner loop was already vectorized
 
    LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,31)
-      remark #15389: vectorization support: reference __first_24926 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15389: vectorization support: reference __first_24932 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
       remark #15381: vectorization support: unaligned access used inside loop body
       remark #15399: vectorization support: unroll factor set to 2
       remark #15300: LOOP WAS VECTORIZED
@@ -1048,8 +1056,8 @@ LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr
    remark #15382: vectorization support: call to function __atomic_fetch_add_4(volatile void *, unsigned int, int) cannot be vectorized   [ /usr/include/c++/4.8/ext/atomicity.h(49,12) ]
    remark #15382: vectorization support: call to function std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep::_M_destroy(std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep *, const std::allocator<char> &) cannot be vectorized   [ /usr/include/c++/4.8/bits/basic_string.h(249,5) ]
    remark #15344: loop was not vectorized: vector dependence prevents vectorization
-   remark #15346: vector dependence: assumed ANTI dependence between __first_26013 line 539 and  line 249
-   remark #15346: vector dependence: assumed FLOW dependence between  line 249 and __first_26013 line 539
+   remark #15346: vector dependence: assumed ANTI dependence between __first_26019 line 539 and  line 249
+   remark #15346: vector dependence: assumed FLOW dependence between  line 249 and __first_26019 line 539
 LOOP END
 ===========================================================================
 
@@ -1061,8 +1069,8 @@ Begin optimization report for: std::vector<Water, std::allocator<Water>>::~vecto
 LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr/include/c++/4.8/bits/stl_vector.h(416,9)
    remark #15382: vectorization support: call to function operator delete(void *) cannot be vectorized   [ /usr/include/c++/4.8/ext/new_allocator.h(110,9) ]
    remark #15344: loop was not vectorized: vector dependence prevents vectorization
-   remark #15346: vector dependence: assumed ANTI dependence between __first_27313 line 160 and  line 110
-   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_27313 line 160
+   remark #15346: vector dependence: assumed ANTI dependence between __first_27319 line 160 and  line 110
+   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_27319 line 160
 LOOP END
 ===========================================================================
 
@@ -1074,8 +1082,8 @@ Begin optimization report for: std::vector<Halide, std::allocator<Halide>>::~vec
 LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr/include/c++/4.8/bits/stl_vector.h(416,9)
    remark #15382: vectorization support: call to function operator delete(void *) cannot be vectorized   [ /usr/include/c++/4.8/ext/new_allocator.h(110,9) ]
    remark #15344: loop was not vectorized: vector dependence prevents vectorization
-   remark #15346: vector dependence: assumed ANTI dependence between __first_29111 line 160 and  line 110
-   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_29111 line 160
+   remark #15346: vector dependence: assumed ANTI dependence between __first_29117 line 160 and  line 110
+   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_29117 line 160
 LOOP END
 ===========================================================================
 
@@ -1087,7 +1095,7 @@ Begin optimization report for: std::vector<Alkali, std::allocator<Alkali>>::~vec
 LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr/include/c++/4.8/bits/stl_vector.h(416,9)
    remark #15382: vectorization support: call to function operator delete(void *) cannot be vectorized   [ /usr/include/c++/4.8/ext/new_allocator.h(110,9) ]
    remark #15344: loop was not vectorized: vector dependence prevents vectorization
-   remark #15346: vector dependence: assumed ANTI dependence between __first_29590 line 160 and  line 110
-   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_29590 line 160
+   remark #15346: vector dependence: assumed ANTI dependence between __first_29596 line 160 and  line 110
+   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_29596 line 160
 LOOP END
 ===========================================================================
