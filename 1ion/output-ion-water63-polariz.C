@@ -234,6 +234,18 @@ int main (int argc, char *argv[])
         waterset[i].watermove();
         waterset[i].reset_wf();
       }
+      for ( int i = 0; i < halideset.size(); i ++ )
+      {
+        halideset[i].reset_wf();
+      }
+      for ( int i = 0; i < alkaliset.size(); i ++ )
+      {
+        alkaliset[i].reset_wf();
+      }
+
+
+
+
       tm_misc.stop();
       //cout << "resetwf\n";
 

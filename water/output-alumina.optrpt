@@ -1,0 +1,1289 @@
+
+Begin optimization report for: main(int, char **)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at output-alumina.C(60,12)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/basic_ios.h(454,7) inlined into output-alumina.C(60,12)
+      remark #15389: vectorization support: reference this_16597 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 4 
+      remark #15477: vector loop cost: 6.000 
+      remark #15478: estimated potential speedup: 1.060 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/basic_ios.h(454,7) inlined into output-alumina.C(60,12)
+      remark #15389: vectorization support: reference this_16597 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 4 
+      remark #15477: vector loop cost: 6.000 
+      remark #15478: estimated potential speedup: 1.060 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at output-alumina.C(61,12)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/basic_ios.h(454,7) inlined into output-alumina.C(61,12)
+      remark #15389: vectorization support: reference this_16597 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 4 
+      remark #15477: vector loop cost: 6.000 
+      remark #15478: estimated potential speedup: 1.060 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/basic_ios.h(454,7) inlined into output-alumina.C(61,12)
+      remark #15389: vectorization support: reference this_16597 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 4 
+      remark #15477: vector loop cost: 6.000 
+      remark #15478: estimated potential speedup: 1.060 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at output-alumina.C(62,12)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/basic_ios.h(454,7) inlined into output-alumina.C(62,12)
+      remark #15389: vectorization support: reference this_16597 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 4 
+      remark #15477: vector loop cost: 6.000 
+      remark #15478: estimated potential speedup: 1.060 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/basic_ios.h(454,7) inlined into output-alumina.C(62,12)
+      remark #15389: vectorization support: reference this_16597 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 4 
+      remark #15477: vector loop cost: 6.000 
+      remark #15478: estimated potential speedup: 1.060 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at output-alumina.C(63,12)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/basic_ios.h(454,7) inlined into output-alumina.C(63,12)
+      remark #15389: vectorization support: reference this_16597 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 4 
+      remark #15477: vector loop cost: 6.000 
+      remark #15478: estimated potential speedup: 1.060 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/basic_ios.h(454,7) inlined into output-alumina.C(63,12)
+      remark #15389: vectorization support: reference this_16597 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 4 
+      remark #15477: vector loop cost: 6.000 
+      remark #15478: estimated potential speedup: 1.060 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at output-alumina.C(70,12)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/basic_ios.h(454,7) inlined into output-alumina.C(70,12)
+      remark #15389: vectorization support: reference this_16597 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 4 
+      remark #15477: vector loop cost: 6.000 
+      remark #15478: estimated potential speedup: 1.060 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/basic_ios.h(454,7) inlined into output-alumina.C(70,12)
+      remark #15389: vectorization support: reference this_16597 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 4 
+      remark #15477: vector loop cost: 6.000 
+      remark #15478: estimated potential speedup: 1.060 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at output-alumina.C(70,24)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/basic_ios.h(454,7) inlined into output-alumina.C(70,24)
+      remark #15389: vectorization support: reference this_16597 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 4 
+      remark #15477: vector loop cost: 6.000 
+      remark #15478: estimated potential speedup: 1.060 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/basic_ios.h(454,7) inlined into output-alumina.C(70,24)
+      remark #15389: vectorization support: reference this_16597 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 4 
+      remark #15477: vector loop cost: 6.000 
+      remark #15478: estimated potential speedup: 1.060 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at output-alumina.C(72,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(80,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(174,7)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(187,7)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(209,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(211,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(213,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(217,7)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(248,49)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(265,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(273,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(285,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(298,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(310,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(334,49)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(346,49)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(361,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(391,9)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(400,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(409,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(423,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(429,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(435,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(457,9)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(469,49)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(481,49)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(506,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(520,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(531,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(545,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at output-alumina.C(555,9)
+      remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+   LOOP END
+LOOP END
+
+LOOP BEGIN at output-alumina.C(588,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(597,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(610,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(156,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(156,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(156,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(156,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(156,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(156,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(641,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(642,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(643,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(649,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(661,10)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(661,10)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(661,10)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(661,10)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(661,10)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(661,10)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at output-alumina.C(60,12)
+   remark #15382: vectorization support: call to function std::basic_ofstream<char, std::char_traits<char>>::~basic_ofstream(std::basic_ofstream<char, std::char_traits<char>> *const) cannot be vectorized
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+LOOP END
+
+LOOP BEGIN at output-alumina.C(61,12)
+   remark #15382: vectorization support: call to function std::basic_ofstream<char, std::char_traits<char>>::~basic_ofstream(std::basic_ofstream<char, std::char_traits<char>> *const) cannot be vectorized
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+LOOP END
+
+LOOP BEGIN at output-alumina.C(62,12)
+   remark #15382: vectorization support: call to function std::basic_ofstream<char, std::char_traits<char>>::~basic_ofstream(std::basic_ofstream<char, std::char_traits<char>> *const) cannot be vectorized
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+LOOP END
+
+LOOP BEGIN at output-alumina.C(63,12)
+   remark #15382: vectorization support: call to function std::basic_ofstream<char, std::char_traits<char>>::~basic_ofstream(std::basic_ofstream<char, std::char_traits<char>> *const) cannot be vectorized
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+LOOP END
+
+LOOP BEGIN at output-alumina.C(70,12)
+   remark #15382: vectorization support: call to function std::basic_ofstream<char, std::char_traits<char>>::~basic_ofstream(std::basic_ofstream<char, std::char_traits<char>> *const) cannot be vectorized
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+LOOP END
+
+LOOP BEGIN at output-alumina.C(70,24)
+   remark #15382: vectorization support: call to function std::basic_ofstream<char, std::char_traits<char>>::~basic_ofstream(std::basic_ofstream<char, std::char_traits<char>> *const) cannot be vectorized
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+LOOP END
+
+LOOP BEGIN at output-alumina.C(70,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(70,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(63,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(62,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(61,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at output-alumina.C(60,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at output-alumina.C(104,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at output-alumina.C(126,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+
+   LOOP BEGIN at output-alumina.C(243,7)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+
+   LOOP BEGIN at output-alumina.C(328,7)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+
+   LOOP BEGIN at output-alumina.C(377,37)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+
+   LOOP BEGIN at output-alumina.C(450,7)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+
+   LOOP BEGIN at output-alumina.C(578,37)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at output-alumina.C(585,9)
+         remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: Tensor::operator+=(Tensor *, const Tensor &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../lib/Tensor.h(101,17)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<Water, std::allocator<Water>>::_M_insert_aux(std::vector<Water, std::allocator<Water>> *, std::vector<Water, std::allocator<Water>>::iterator, const std::vector<Water, std::allocator<Water>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(536,4) inlined into /usr/include/c++/4.8/bits/vector.tcc(332,4)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /usr/include/c++/4.8/bits/vector.tcc(364,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /usr/include/c++/4.8/bits/vector.tcc(371,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr/include/c++/4.8/bits/vector.tcc(385,4)
+   remark #15382: vectorization support: call to function operator delete(void *) cannot be vectorized   [ /usr/include/c++/4.8/ext/new_allocator.h(110,9) ]
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between __first_19749 line 160 and  line 110
+   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_19749 line 160
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::_Vector_base<Water, std::allocator<Water>>::pointer>(std::_Vector_base<Water, std::allocator<Water>>::pointer, std::_Vector_base<Water, std::allocator<Water>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4)
+   remark #15382: vectorization support: call to function operator delete(void *) cannot be vectorized   [ /usr/include/c++/4.8/ext/new_allocator.h(110,9) ]
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 160 and  line 110
+   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first line 160
+LOOP END
+===========================================================================
+
+Begin optimization report for: Water::Water(Water *, int, Cell &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../lib/Water.h(62,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15462: unmasked indexed (or gather) loads: 3 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 9 
+   remark #15477: vector loop cost: 7.500 
+   remark #15478: estimated potential speedup: 1.120 
+   remark #15479: lightweight vector operations: 8 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../lib/Water.h(66,5)
+   remark #15389: vectorization support: reference this has unaligned access   [ ../lib/Water.h(66,35) ]
+   remark #15381: vectorization support: unaligned access used inside loop body
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 0.540 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../lib/Water.h(62,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at ../lib/Water.h(62,3)
+   remark #15427: loop was completely unrolled
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15462: unmasked indexed (or gather) loads: 3 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 9 
+   remark #15477: vector loop cost: 7.500 
+   remark #15478: estimated potential speedup: 1.200 
+   remark #15479: lightweight vector operations: 8 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../lib/Water.h(62,3)
+   remark #15427: loop was completely unrolled
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15462: unmasked indexed (or gather) loads: 3 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 9 
+   remark #15477: vector loop cost: 15.000 
+   remark #15478: estimated potential speedup: 1.200 
+   remark #15479: lightweight vector operations: 8 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Water.h(68,9)
+   remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Water.h(68,9)
+      remark #15388: vectorization support: reference __first_18514 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 2 
+      remark #15477: vector loop cost: 1.500 
+      remark #15478: estimated potential speedup: 0.820 
+      remark #15479: lightweight vector operations: 2 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Water.h(68,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Water.h(68,9)
+   remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Water.h(68,9)
+      remark #15388: vectorization support: reference __first_18564 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 2 
+      remark #15477: vector loop cost: 1.500 
+      remark #15478: estimated potential speedup: 0.820 
+      remark #15479: lightweight vector operations: 2 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Water.h(68,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Water.h(68,9)
+   remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Water.h(68,9)
+      remark #15388: vectorization support: reference __first_18514 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 2 
+      remark #15477: vector loop cost: 1.500 
+      remark #15478: estimated potential speedup: 0.820 
+      remark #15479: lightweight vector operations: 2 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Water.h(68,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Water.h(68,9)
+   remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Water.h(68,9)
+      remark #15388: vectorization support: reference __first_18564 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 2 
+      remark #15477: vector loop cost: 1.500 
+      remark #15478: estimated potential speedup: 0.820 
+      remark #15479: lightweight vector operations: 2 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Water.h(68,9)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<int, std::allocator<int>>::resize(std::vector<int, std::allocator<int>> *, std::vector<int, std::allocator<int>>::size_type, std::vector<int, std::allocator<int>>::value_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15388: vectorization support: reference __first_20869 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15388: vectorization support: reference __first_20919 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15388: vectorization support: reference __first_20919 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<double, std::allocator<double>>::resize(std::vector<double, std::allocator<double>> *, std::vector<double, std::allocator<double>>::size_type, std::vector<double, std::allocator<double>>::value_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15388: vectorization support: reference __first_17962 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+   remark #15399: vectorization support: unroll factor set to 4
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.920 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15388: vectorization support: reference __first_18026 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+   remark #15399: vectorization support: unroll factor set to 4
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.920 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15388: vectorization support: reference __first_18026 has aligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+   remark #15399: vectorization support: unroll factor set to 4
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.920 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: Mlwf::readp(Mlwf *, std::istream &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../lib/Mlwf.h(68,5)
+   remark #15382: vectorization support: call to function std::basic_istream<char, std::char_traits<char>>::operator>>(std::basic_istream<char, std::char_traits<char>> *, double &) cannot be vectorized   [ ../lib/Mlwf.h(68,37) ]
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<Mlwf, std::allocator<Mlwf>>::resize(std::vector<Mlwf, std::allocator<Mlwf>> *, std::vector<Mlwf, std::allocator<Mlwf>>::size_type, std::vector<Mlwf, std::allocator<Mlwf>>::value_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15527: loop was not vectorized: function call to ?1memcpy cannot be vectorized   [ /usr/include/c++/4.8/bits/stl_construct.h(83,42) ]
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(536,4) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15527: loop was not vectorized: function call to ?1memcpy cannot be vectorized   [ /usr/include/c++/4.8/bits/stl_algobase.h(537,9) ]
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(681,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15527: loop was not vectorized: function call to ?1memcpy cannot be vectorized   [ /usr/include/c++/4.8/bits/stl_algobase.h(682,13) ]
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(186,8) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15527: loop was not vectorized: function call to ?1memcpy cannot be vectorized   [ /usr/include/c++/4.8/bits/stl_construct.h(83,42) ]
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15527: loop was not vectorized: function call to ?1memcpy cannot be vectorized   [ /usr/include/c++/4.8/bits/stl_construct.h(83,42) ]
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(681,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15527: loop was not vectorized: function call to ?1memcpy cannot be vectorized   [ /usr/include/c++/4.8/bits/stl_algobase.h(682,13) ]
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(186,8) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15527: loop was not vectorized: function call to ?1memcpy cannot be vectorized   [ /usr/include/c++/4.8/bits/stl_construct.h(83,42) ]
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15527: loop was not vectorized: function call to ?1memcpy cannot be vectorized   [ /usr/include/c++/4.8/bits/stl_construct.h(83,42) ]
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15527: loop was not vectorized: function call to ?1memcpy cannot be vectorized   [ /usr/include/c++/4.8/bits/stl_construct.h(83,42) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: Cell::invert(Cell *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../lib/Cell.h(80,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between this line 82 and F64 line 82
+   remark #15346: vector dependence: assumed FLOW dependence between F64 line 82 and this line 82
+LOOP END
+===========================================================================
+
+Begin optimization report for: operator>>(std::istream &, Cell &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../lib/Cell.h(40,5)
+   remark #15382: vectorization support: call to function std::basic_istream<char, std::char_traits<char>>::operator>>(std::basic_istream<char, std::char_traits<char>> *, double &) cannot be vectorized   [ ../lib/Cell.h(41,10) ]
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<Atom, std::allocator<Atom>>::resize(std::vector<Atom, std::allocator<Atom>> *, std::vector<Atom, std::allocator<Atom>>::size_type, std::vector<Atom, std::allocator<Atom>>::value_type *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   <Multiversioned v1>
+      remark #15389: vectorization support: reference __cur.18918 has unaligned access
+      remark #15389: vectorization support: reference __first_18918 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 4
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 6 
+      remark #15477: vector loop cost: 12.000 
+      remark #15478: estimated potential speedup: 1.600 
+      remark #15479: lightweight vector operations: 1 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   <Multiversioned v2>
+      remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(536,4) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(681,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(186,8) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   <Multiversioned v1>
+      remark #15389: vectorization support: reference __cur.18918 has unaligned access
+      remark #15389: vectorization support: reference __first_18918 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 4
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 6 
+      remark #15477: vector loop cost: 12.000 
+      remark #15478: estimated potential speedup: 1.600 
+      remark #15479: lightweight vector operations: 1 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   <Multiversioned v2>
+      remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(681,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(186,8) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+      remark #15389: vectorization support: reference __cur.19081 has unaligned access
+      remark #15389: vectorization support: reference __x has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 4
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 6 
+      remark #15477: vector loop cost: 12.000 
+      remark #15478: estimated potential speedup: 1.600 
+      remark #15479: lightweight vector operations: 1 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   <Multiversioned v1>
+      remark #15389: vectorization support: reference __cur.18918 has unaligned access
+      remark #15389: vectorization support: reference __first_18918 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 4
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 6 
+      remark #15477: vector loop cost: 12.000 
+      remark #15478: estimated potential speedup: 1.600 
+      remark #15479: lightweight vector operations: 1 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   <Multiversioned v2>
+      remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_uninitialized.h(74,8) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   <Multiversioned v1>
+      remark #15389: vectorization support: reference __cur.18918 has unaligned access
+      remark #15389: vectorization support: reference __first_18918 has unaligned access
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15427: loop was completely unrolled
+      remark #15399: vectorization support: unroll factor set to 4
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 6 
+      remark #15477: vector loop cost: 12.000 
+      remark #15478: estimated potential speedup: 1.600 
+      remark #15479: lightweight vector operations: 1 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at ../lib/Atom.h(12,7) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   <Multiversioned v2>
+      remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr/include/c++/4.8/bits/stl_vector.h(708,4)
+   remark #15382: vectorization support: call to function __atomic_fetch_add_4(volatile void *, unsigned int, int) cannot be vectorized   [ /usr/include/c++/4.8/ext/atomicity.h(49,12) ]
+   remark #15382: vectorization support: call to function std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep::_M_destroy(std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep *, const std::allocator<char> &) cannot be vectorized   [ /usr/include/c++/4.8/bits/basic_string.h(249,5) ]
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between __first_18769 line 539 and  line 249
+   remark #15346: vector dependence: assumed FLOW dependence between  line 249 and __first_18769 line 539
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr/include/c++/4.8/bits/stl_vector.h(710,4)
+   remark #15382: vectorization support: call to function __atomic_fetch_add_4(volatile void *, unsigned int, int) cannot be vectorized   [ /usr/include/c++/4.8/ext/atomicity.h(49,12) ]
+   remark #15382: vectorization support: call to function std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep::_M_destroy(std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep *, const std::allocator<char> &) cannot be vectorized   [ /usr/include/c++/4.8/bits/basic_string.h(249,5) ]
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between __first_18769 line 539 and  line 249
+   remark #15346: vector dependence: assumed FLOW dependence between  line 249 and __first_18769 line 539
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::_Vector_base<Atom, std::allocator<Atom>>::pointer>(std::_Vector_base<Atom, std::allocator<Atom>>::pointer, std::_Vector_base<Atom, std::allocator<Atom>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4)
+   remark #15382: vectorization support: call to function __atomic_fetch_add_4(volatile void *, unsigned int, int) cannot be vectorized   [ /usr/include/c++/4.8/ext/atomicity.h(49,12) ]
+   remark #15382: vectorization support: call to function std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep::_M_destroy(std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep *, const std::allocator<char> &) cannot be vectorized   [ /usr/include/c++/4.8/bits/basic_string.h(249,5) ]
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 539 and  line 249
+   remark #15346: vector dependence: assumed FLOW dependence between  line 249 and __first line 539
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<Water, std::allocator<Water>>::~vector(std::vector<Water, std::allocator<Water>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr/include/c++/4.8/bits/stl_vector.h(416,9)
+   remark #15382: vectorization support: call to function operator delete(void *) cannot be vectorized   [ /usr/include/c++/4.8/ext/new_allocator.h(110,9) ]
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between __first_19749 line 160 and  line 110
+   remark #15346: vector dependence: assumed FLOW dependence between  line 110 and __first_19749 line 160
+LOOP END
+===========================================================================
+
+Begin optimization report for: Cell::Cell(Cell *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Cell.h(29,18)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Cell.h(29,18)
+      remark #15389: vectorization support: reference __first_17962 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 5.000 
+      remark #15478: estimated potential speedup: 1.090 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Cell.h(29,18)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,18)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,18)
+      remark #15389: vectorization support: reference __first_18026 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 5.000 
+      remark #15478: estimated potential speedup: 1.090 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,18)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,18)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,18)
+      remark #15389: vectorization support: reference __first_18026 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 5.000 
+      remark #15478: estimated potential speedup: 1.090 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,18)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Cell.h(29,31)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Cell.h(29,31)
+      remark #15389: vectorization support: reference __first_17962 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(693,3) ]
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 5.000 
+      remark #15478: estimated potential speedup: 1.090 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(692,7) inlined into ../lib/Cell.h(29,31)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,31)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,31)
+      remark #15389: vectorization support: reference __first_18026 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 5.000 
+      remark #15478: estimated potential speedup: 1.090 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,31)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,31)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,31)
+      remark #15389: vectorization support: reference __first_18026 has unaligned access   [ /usr/include/c++/4.8/bits/stl_algobase.h(751,3) ]
+      remark #15381: vectorization support: unaligned access used inside loop body
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 5.000 
+      remark #15478: estimated potential speedup: 1.090 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.8/bits/stl_algobase.h(749,7) inlined into ../lib/Cell.h(29,31)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<Atom, std::allocator<Atom>>::~vector(std::vector<Atom, std::allocator<Atom>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.8/bits/stl_construct.h(102,4) inlined into /usr/include/c++/4.8/bits/stl_vector.h(416,9)
+   remark #15382: vectorization support: call to function __atomic_fetch_add_4(volatile void *, unsigned int, int) cannot be vectorized   [ /usr/include/c++/4.8/ext/atomicity.h(49,12) ]
+   remark #15382: vectorization support: call to function std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep::_M_destroy(std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Rep *, const std::allocator<char> &) cannot be vectorized   [ /usr/include/c++/4.8/bits/basic_string.h(249,5) ]
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between __first_18769 line 539 and  line 249
+   remark #15346: vector dependence: assumed FLOW dependence between  line 249 and __first_18769 line 539
+LOOP END
+===========================================================================

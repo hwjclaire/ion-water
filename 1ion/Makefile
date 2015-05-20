@@ -24,7 +24,7 @@ OBJECTS= output-halide-water63-polariz.o
 
  LDFLAGS = ../lib/libbasic.a  $(LIBS)
 
- output-halide-water63-polariz.x : output-halide-water63-polariz.o
+ output-ion-water63-polariz.x : output-ion-water63-polariz.o
 	$(LD) $(DFLAGS) -o $@ $^  ../ewald/libewald.a $(LDFLAGS)
 
  
