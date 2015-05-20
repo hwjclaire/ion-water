@@ -59,13 +59,7 @@ int main (int argc, char *argv[])
   std::vector<Alkali> alkaliset;
 
   
-  ofstream polarmol;
-  polarmol.open("mol_pol");
-  polarmol.setf(ios::fixed, ios::floatfield);
-  polarmol.setf(ios::right, ios::adjustfield);
-  polarmol.precision(5);
-
-
+  ofstream polarmlwf[64];
 
   Stat alphastat1(5,25,0.01);
   Stat alphastat2(5,25,0.01);
@@ -203,6 +197,17 @@ int main (int argc, char *argv[])
       for ( int i = 0; i < waterset.size(); i ++ )
       {
         waterset[i].check_atom();
+      }
+      for ( int i = 0; i < waterset.size(); i ++ )
+      {
+        ostringstream name;
+        name << "water" << i + 1 << ".dat";
+        string filename = name.str();
+        char * fptr = (char*)filename.c_str();
+        polarmlwf[i].open(fptr);
+        polarmlwf[i].setf(ios::fixed, ios::floatfield);
+        polarmlwf[i].setf(ios::right, ios::adjustfield);
+        polarmlwf[i].precision(5);
       }
 
       
@@ -411,7 +416,7 @@ int main (int argc, char *argv[])
 
       for ( int iwater = 0; iwater < waterset.size(); iwater ++ )
       {
-        polarmol
+        polarmlwf[iwater] 
           << setw(12) << waterset[iwater].alpha_tensor_axis()[0]
           << setw(12) << waterset[iwater].alpha_tensor_axis()[4]
           << setw(12) << waterset[iwater].alpha_tensor_axis()[8]
@@ -444,7 +449,6 @@ int main (int argc, char *argv[])
   fxyz.close();
   fmlwf.close();
   fquad.close();
-  polarmol.close();
 
   cout << alphastat1.n() << "   " << alphastat1.avg() << endl;
   cout << alphastat2.n() << "   " << alphastat2.avg() << endl;
