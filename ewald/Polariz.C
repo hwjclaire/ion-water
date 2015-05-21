@@ -33,7 +33,7 @@ Polariz::Polariz(Cell& c, std::vector < Mol* > & molset,
   // need more control for conervergence
   // this parameters are pretty arbitrary
   // may leads to bad convergence for some systems
-  nk_ = 21;
+  nk_ = 23;
   kappa_ = .19;
 
   cout << "nk    = " << nk_ << endl;
