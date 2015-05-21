@@ -34,7 +34,11 @@ Polariz::Polariz(Cell& c, std::vector < Mol* > & molset,
   // this parameters are pretty arbitrary
   // may leads to bad convergence for some systems
   nk_ = 21;
-  kappa_ = .12;
+  kappa_ = .19;
+
+  cout << "nk    = " << nk_ << endl;
+  cout << "kappa = " << kappa_ << endl;
+
 
 
   //initialize vectors for ewald

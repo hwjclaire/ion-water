@@ -189,8 +189,11 @@ int main (int argc, char *argv[])
         min -> add_hydrogen ( *patom ); 
       }
 
-      assert ( halidecount + alkalicount == 1 );
-      assert ( watercount == 63 );
+      //assert ( halidecount + alkalicount + watercount == 64 );
+      cout << "Number of water  " << watercount << endl;
+      cout << "Number of halide " << halidecount << endl;
+      cout << "Number of alkali " << alkalicount << endl;
+
 
       assert ( waterset.size() * 4 + halideset.size() * 4 
                + alkaliset.size() * 3 == nmo );
