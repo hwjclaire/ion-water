@@ -70,6 +70,8 @@ OBJECTS=dipolemlwf.o  output-cccmdipole.o  output.o  output-spread.o sulfuric.o 
 	$(LD) $(DFLAGS) -o $@ $^ $(LDFLAGS)
  output-water-mlwf.x: output-water-mlwf.o
 	$(LD) $(DFLAGS) -o $@ $^  ../ewald/libewald.a $(LDFLAGS)
+ output-water-dist.x: output-water-dist.o
+	$(LD) $(DFLAGS) -o $@ $^  ../ewald/libewald.a $(LDFLAGS)
  output-alumina.x: output-alumina.o
 	$(LD) $(DFLAGS) -o $@ $^ $(LDFLAGS)
  output-al2o3.x: output-al2o3.o

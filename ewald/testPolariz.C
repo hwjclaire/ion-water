@@ -348,7 +348,7 @@ int main (int argc, char *argv[])
       {
         waterset[i].check_wf();
         waterset[i].Compute_cm();
-        //waterset[i].Compute_cc();
+        waterset[i].Compute_cc();
         waterset[i].getaxis();
         waterset[i].Compute_dipole();
       }

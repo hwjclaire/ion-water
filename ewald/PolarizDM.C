@@ -20,9 +20,7 @@ using namespace std;
 
 Polariz::Polariz(Cell& c, std::vector < Mol* > & molset, 
   std::vector < Mlwf > & mlwfset)
-: c_(c), molset_(molset), mlwfset_(mlwfset),
-  nmol_(molset.size()), nmlwf_(mlwfset.size()),
-  elocal_inv_(ctxt_,3,3)
+: c_(c), mlwfset_(mlwfset), nmlwf_(mlwfset.size())
 {
 
   cout.setf(ios::fixed, ios::floatfield);
@@ -34,28 +32,13 @@ Polariz::Polariz(Cell& c, std::vector < Mol* > & molset,
 
 
   //initialize vectors for ewald
-  mol_elocal_.resize(nmol_);
-  mol_pos_.resize(nmol_);
-  mol_polar_.resize(nmol_);
-
-
-  mlwf_elocal_.resize(nmlwf_);
   mlwf_pos_.resize(nmlwf_);
   mlwf_polar_.resize(nmlwf_);
 
-
-  for ( int iw = 0; iw < nmol_; iw ++ )
-  {
-    mol_elocal_ [iw].resize(9);
-    mol_pos_ [iw] = &(molset_[iw]->cm());//important
-    mol_polar_ [iw] = molset_[iw]->polar_tensor();
-  }
-
   for ( int i = 0; i < nmlwf_; i ++ )
   {
-    mlwf_elocal_ [i].resize(9);
-    mlwf_pos_[i] = &(mlwfset_[i].x());
-    mlwf_polar_[i] = mlwfset_[i].polar_tensor();
+    mlwf_pos_[i] = mlwfset_[i].x();
+    mlwf_polar_[i] = mlwfset_[i].spread();
   }
 
 

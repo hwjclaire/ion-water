@@ -15,7 +15,7 @@ class Atom
 
   double mass_, charge_;
 
-  D3vector x_,v_;
+  D3vector x_,v_,f_;
 
   Mol * mol_;
   
@@ -38,6 +38,7 @@ class Atom
 
   const D3vector& x(void) const { return x_; };
   const D3vector& v(void) const { return v_; };
+  const D3vector& f(void) const { return f_; };
 
   friend std::istream& operator >> ( std::istream& is, Atom& a )
   {
@@ -48,6 +49,8 @@ class Atom
   void readx ( std::istream& is ) { is >> x_; }
   
   void readv ( std::istream& is ) { is >> v_; }
+
+  void readf ( std::istream& is ) { is >> f_; }
 
   double distance( Atom *a, const Cell * const c)
   {

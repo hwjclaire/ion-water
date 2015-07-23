@@ -182,7 +182,10 @@ void Water::getaxis_dipole()
 void Water::getaxis()
 {
   axis_[0] = normalized (oh_[0] + oh_[1]);
-  axis_[1] = normalized (oh_[0] ^ oh_[1]);
+  if ( norm(oh_[0]) > norm(oh_[1]) )
+    axis_[1] = normalized (oh_[0] ^ oh_[1]);
+  else
+    axis_[1] = normalized (oh_[1] ^ oh_[0]);
   axis_[2] = axis_[0] ^ axis_[1];
 /*
   cout << number_ << endl;
@@ -229,6 +232,16 @@ void Water::getaxis()
 
 void Water::check_atom ()
 {
+  /*
+  //swap hydrogen so that the first is closet to oxygen.
+  if ( o_->distance(h_[0],c_) >  o_->distance(h_[1],c_) )
+  {
+    Atom * t = h_[1];
+    h_[1] = h_[0];
+    h_[0] = h_[1];
+  }
+  */
+
 #if ASSERT  
   assert ( o_ !=0 ); 
   assert ( o_ -> mol() == this);
